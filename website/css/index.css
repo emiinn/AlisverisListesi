@@ -1,0 +1,232 @@
+body {
+  font-size: 14px;
+  background-color: #2d184b;
+  font-family: 'Rubik', sans-serif;
+}
+.clear {
+  clear: both;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* HEADER */
+header {
+  background-color: #fff;
+  width: 100%;
+  position: fixed;
+  
+}
+
+
+header nav ul {
+  width: 470px;   
+  margin: 0px auto; 
+  
+}
+
+header nav ul li {
+  float: left;
+  padding: 10px;
+}
+
+header nav ul li a {
+  font-size: 20px;
+  color: #2d184b;
+  font-weight: bold;
+}
+
+header nav ul li a:hover {
+  font-size: 25px;
+}
+
+.mrktLst {
+  border: 3px solid #fff;
+  border-radius: 5px;
+  width: 500px;
+  margin: 200px auto;
+}
+
+.mrktLst input {
+  color: #2d184b;
+  border: 2px solid #fff;  
+  border-radius: 10px;
+  margin-left: 100px;
+  width:50%;
+  height: 30px;
+  text-align: center;
+}
+
+.mrktLst input:hover {
+  border: 2px solid #1a1aff;
+  border-radius: 10px;
+}
+
+.mrktLst ul .urunler {
+  font-size: 20px;
+  margin-left: 61px;
+  padding: 10px; 
+  width: 380px;
+  float: center;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+}
+
+
+.mrktLst button {
+  border: 2px solid #fff;
+  border-radius: 10px;
+  height: 37px;
+  font-weight: bold;
+  color: #2d184b;
+  background-color: #fff;
+  font-family: 'Rubik', sans-serif;
+}
+
+.mrktLst button:hover {
+  border: 2px solid #1a1aff;
+  border-radius: 10px;
+}
+
+.bosluk {
+  height: 250px;
+}
+
+.hakkimda {
+  text-align: center;
+  font-size: 17px;
+  width: 100%;
+  height: 300px;
+  color: #fff;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+footer {
+  height: 50px;
+  text-align: center;
+}
+footer a {
+  color: #fff;
+  font-size: 15px;
+}
+/*MEDİA QUERY*/
+
+@media all and (max-width: 960px) {
+
+  header .logo {
+    float: center;
+    border-bottom: 1px solid #fff;
+  }
+  header nav ul {
+    float: left;
+    width: 82%;
+  }
+  header nav ul li {
+    margin-top: -5px;
+    float: none;
+    text-align: center;
+    padding: 5px;
+  }
+  header nav ul li a {
+    color: #2d184b;
+  }
+
+  .mrktLst {
+    width: 400px;
+    margin-top: 300px;
+  }
+
+  .mrktLst ul .urunler {
+    margin-left: 60px;
+    width: 280px;
+    font-size: 18px;
+  }
+
+  .mrktLst input {
+    color: #2d184b;
+    border: 2px solid #fff;  
+    border-radius: 10px;
+    margin-left: 100px;
+    width:40%;
+    height: 20px;
+    text-align: center;
+  }    
+
+  .mrktLst button {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    height: 25px;
+    font-weight: bold;
+    color: #2d184b;
+    background-color: #fff;
+    font-family: 'Indie Flower', cursive;
+    }
+
+    .hakkimda {
+      margin-top: 50px;
+    }
+
+   
+
+
+}
+
+
+@media all and (max-width: 480px) {
+  header .logo {
+    float: center;
+    border-bottom: 1px solid #fff;
+  }
+  header nav ul {
+    float: left;
+    width: 82%;
+  }
+  header nav ul li {
+    margin-top: -5px;
+    float: none;
+    text-align: center;
+    padding: 5px;
+  }
+  header nav ul li a {
+    color: #2d184b;
+  }
+
+  .mrktLst {
+    width: 400px;
+    margin-top: 300px;
+  }
+
+  .mrktLst ul .urunler {
+    margin-left: 60px;
+    width: 280px;
+    font-size: 15px;
+  }
+
+  .mrktLst input {
+    color: #2d184b;
+    border: 2px solid #fff;  
+    border-radius: 10px;
+    margin-left: 100px;
+    width:40%;
+    height: 20px;
+    text-align: center;
+  }    
+
+  .mrktLst button {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    height: 25px;
+    font-weight: bold;
+    color: #2d184b;
+    background-color: #fff;
+    font-family: 'Indie Flower', cursive;
+    }
+
+    footer a {
+      font-size: 12px;
+    }
+    
+}
+
